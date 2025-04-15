@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Launch
+
+Подключить БД PostgreSQL это можно сделать в файле .env
+
+Установить все зависимости composer.js
+
+Накатить миграции и инпортировать данные из файла backup.sql
