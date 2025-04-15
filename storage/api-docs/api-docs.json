@@ -1,0 +1,20 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My API",
+        "description": "API для управления автомобилями",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "api/cars/available": {
+            "get": {
+                "operationId": "c83297d49141b808866e4fb73c9bf214",
+                "responses": {
+                    "200": {
+                        "description": "Получение списка автомобилей"
+                    }
+                }
+            }
+        }
+    }
+}

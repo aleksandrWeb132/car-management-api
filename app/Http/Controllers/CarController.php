@@ -6,7 +6,20 @@ use App\Models\Car;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cache;
 
+/**
+ * @OA\Info(
+ *     title="My API",
+ *     version="1.0.0",
+ *     description="API для управления автомобилями"
+ * )
+ */
 class CarController extends Controller {
+    /**
+     * @OA\Get(
+     *     path="api/cars/available",
+     *     @OA\Response(response="200", description="Получение списка автомобилей")
+     * )
+     */
     public function available() {
         $currentDate = Carbon::now()->toDateString();
 
